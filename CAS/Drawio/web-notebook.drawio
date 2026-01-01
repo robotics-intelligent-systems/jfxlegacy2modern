@@ -4,20 +4,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-1" value="Zeppelin Zengine" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="680" height="510" as="geometry" />
+        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-1" value="Zeppelin Zengine" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="950" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-2" value="util" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="Ljs0eC5MLeJkHlQIR7CH-1">
-          <mxGeometry x="40" y="80" width="330" height="290" as="geometry" />
+        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-2" value="util" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="Ljs0eC5MLeJkHlQIR7CH-1" vertex="1">
+          <mxGeometry x="40" y="80" width="330" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-4" value="FileUtils" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" vertex="1" parent="Ljs0eC5MLeJkHlQIR7CH-2">
-          <mxGeometry x="95" y="70" width="140" height="40" as="geometry" />
+        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-4" value="FileUtils" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" parent="Ljs0eC5MLeJkHlQIR7CH-2" vertex="1">
+          <mxGeometry x="95" y="67.58620689655173" width="140" height="38.62068965517241" as="geometry" />
         </mxCell>
-        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-5" value="ReflectionUtils" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" vertex="1" parent="Ljs0eC5MLeJkHlQIR7CH-2">
-          <mxGeometry x="95" y="140" width="140" height="40" as="geometry" />
+        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-5" value="ReflectionUtils" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" parent="Ljs0eC5MLeJkHlQIR7CH-2" vertex="1">
+          <mxGeometry x="95" y="135.17241379310346" width="140" height="38.62068965517241" as="geometry" />
         </mxCell>
-        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-6" value="WatcherSecurityKey" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" vertex="1" parent="Ljs0eC5MLeJkHlQIR7CH-2">
-          <mxGeometry x="95" y="210" width="140" height="40" as="geometry" />
+        <mxCell id="Ljs0eC5MLeJkHlQIR7CH-6" value="WatcherSecurityKey" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" parent="Ljs0eC5MLeJkHlQIR7CH-2" vertex="1">
+          <mxGeometry x="95" y="202.75862068965517" width="140" height="38.62068965517241" as="geometry" />
+        </mxCell>
+        <mxCell id="7AmLcZVOfrWuQ-Bfc4h_-2" value="user" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="Ljs0eC5MLeJkHlQIR7CH-1">
+          <mxGeometry x="400" y="80" width="350" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7AmLcZVOfrWuQ-Bfc4h_-4" value="Credentials" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" vertex="1" parent="7AmLcZVOfrWuQ-Bfc4h_-2">
+          <mxGeometry x="80" y="70" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7AmLcZVOfrWuQ-Bfc4h_-5" value="CredentialsInfoSaving" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" vertex="1" parent="7AmLcZVOfrWuQ-Bfc4h_-2">
+          <mxGeometry x="80" y="140" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7AmLcZVOfrWuQ-Bfc4h_-6" value="Encryptor" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;" vertex="1" parent="7AmLcZVOfrWuQ-Bfc4h_-2">
+          <mxGeometry x="80" y="210" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
